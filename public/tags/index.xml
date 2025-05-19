@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>https://example.org/tags/</link>
+    <link>https://sonarttech.netlify.app/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sonarttech.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>News</title>
-      <link>https://example.org/tags/news/</link>
+      <link>https://sonarttech.netlify.app/tags/news/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/news/</guid>
+      <guid>https://sonarttech.netlify.app/tags/news/</guid>
       <description></description>
     </item>
     <item>
       <title>Site</title>
-      <link>https://example.org/tags/site/</link>
+      <link>https://sonarttech.netlify.app/tags/site/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/site/</guid>
+      <guid>https://sonarttech.netlify.app/tags/site/</guid>
       <description></description>
     </item>
     <item>
       <title>Update</title>
-      <link>https://example.org/tags/update/</link>
+      <link>https://sonarttech.netlify.app/tags/update/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/update/</guid>
+      <guid>https://sonarttech.netlify.app/tags/update/</guid>
       <description></description>
     </item>
   </channel>

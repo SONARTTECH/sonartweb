@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Site on My New Hugo Site</title>
-    <link>https://example.org/tags/site/</link>
+    <link>https://sonarttech.netlify.app/tags/site/</link>
     <description>Recent content in Site on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sonarttech.netlify.app/tags/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>news</title>
-      <link>https://example.org/news/</link>
+      <link>https://sonarttech.netlify.app/news/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/news/</guid>
+      <guid>https://sonarttech.netlify.app/news/</guid>
       <description>&lt;p&gt;news page&#xA;Nous sommes ravis de vous annoncer que nous avons récemment mis à jour notre site web !&#xA;Nous avons ajouté de nouvelles sections pour mieux vous informer sur nos projets, nos services et notre équipe.&#xA;Nous avons également amélioré la navigation et le design pour rendre votre expérience encore plus agréable.&#xA;Nous espérons que vous apprécierez ces changements et nous vous invitons à explorer notre site pour découvrir tout ce que nous avons à offrir.&#xA;Nous sommes impatients de partager nos dernières actualités et projets avec vous.&lt;/p&gt;</description>
     </item>
   </channel>
