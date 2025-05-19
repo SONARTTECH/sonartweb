@@ -1,5 +1,5 @@
 ---
-title: "À propos"
+title: À propos
 date: 2025-05-19
 ---
 
@@ -7,7 +7,7 @@ date: 2025-05-19
 
 Nous avons décidé de nous associer pour mettre en commun nos compétences et nos expériences dans le domaine du spectacle vivant, de l’art numérique et de la création sonore.
 
-que ce soit pour la création de kit adapté au tournées de concerts, de performances ou de spectacles vivants, nous avons à cœur de vous accompagner dans vos projets.
+Que ce soit pour la création de kit adapté au tournées de concerts, de performances ou de spectacles vivants, nous avons à cœur de vous accompagner dans vos projets.
 
 Nous avons une approche pluridisciplinaire et nous aimons travailler en collaboration avec d’autres artistes, techniciens ou chercheurs.
 
