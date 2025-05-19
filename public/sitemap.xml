@@ -5,19 +5,30 @@
     <loc>https://example.org/about/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://example.org/contact/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/news/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/tags/news/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://example.org/services/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/contact/</loc>
+    <loc>https://example.org/tags/site/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.org/</loc>
     <lastmod>2025-05-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
-  </url><url>
-    <loc>https://example.org/news/</loc>
-  </url><url>
     <loc>https://example.org/tags/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/tags/update/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.org/categories/</loc>
   </url>
 </urlset>

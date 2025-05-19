@@ -16,13 +16,6 @@
       <description>&lt;p&gt;&lt;strong&gt;Son&amp;rsquo;Art-Tech&lt;/strong&gt;, c’est une société crée par Antoine Carrique et Christophe Daïrien-Servais en 2023.&lt;/p&gt;&#xA;&lt;p&gt;Nous avons décidé de nous associer pour mettre en commun nos compétences et nos expériences dans le domaine du spectacle vivant, de l’art numérique et de la création sonore.&lt;/p&gt;&#xA;&lt;p&gt;Que ce soit pour la création de kit adapté au tournées de concerts, de performances ou de spectacles vivants, nous avons à cœur de vous accompagner dans vos projets.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>contact</title>
-      <link>https://example.org/services/</link>
-      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/services/</guid>
-      <description>&lt;p&gt;Bienvenue sur mon site !&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Contact</title>
       <link>https://example.org/contact/</link>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
@@ -30,11 +23,18 @@
       <description>&lt;p&gt;📧 &lt;a href=&#34;mailto:contact@sonart.tech&#34;&gt;contact@sonart.tech&lt;/a&gt;&#xA;📍 Basé dans l&amp;rsquo;ouest de la France, ouvert au monde&lt;br&gt;&#xA;📱 Instagram, Mastodon, Facebook, linkedin&#xA;📞 +336 61 86 64 17&lt;/p&gt;</description>
     </item>
     <item>
-      <title>services</title>
+      <title>news</title>
       <link>https://example.org/news/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
       <guid>https://example.org/news/</guid>
-      <description>&lt;p&gt;services page&lt;/p&gt;</description>
+      <description>&lt;p&gt;news page&#xA;Nous sommes ravis de vous annoncer que nous avons récemment mis à jour notre site web !&#xA;Nous avons ajouté de nouvelles sections pour mieux vous informer sur nos projets, nos services et notre équipe.&#xA;Nous avons également amélioré la navigation et le design pour rendre votre expérience encore plus agréable.&#xA;Nous espérons que vous apprécierez ces changements et nous vous invitons à explorer notre site pour découvrir tout ce que nous avons à offrir.&#xA;Nous sommes impatients de partager nos dernières actualités et projets avec vous.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>services</title>
+      <link>https://example.org/services/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/services/</guid>
+      <description>&lt;p&gt;services page&lt;/p&gt;&#xA;&lt;p&gt;Nous proposons des services variés dans le domaine de l&amp;rsquo;art numérique, de la création sonore et de l&amp;rsquo;interaction. Voici un aperçu de ce que nous offrons :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Création de kit&lt;/strong&gt; : Nous concevons des kits adaptés aux tournées de concerts, performances et spectacles vivants. Ces kits sont conçus pour être facilement transportables et adaptés aux besoins spécifiques de chaque projet.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Accompagnement technique&lt;/strong&gt; : Nous prposons un accompagnement technique pour les artistes et les techniciens, que ce soit pour la mise en place de matériel, la configuration de logiciels ou la gestion de l&amp;rsquo;équipement pendant les performances.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
