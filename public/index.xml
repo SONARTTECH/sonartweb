@@ -6,6 +6,42 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accueil</title>
+      <link>https://example.org/accueil/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/accueil/</guid>
+      <description>&lt;p&gt;Bienvenue sur le site de Son’Art-Tech !&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>contact</title>
+      <link>https://example.org/services/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/services/</guid>
+      <description>&lt;p&gt;Bienvenue sur mon site !&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>start</title>
+      <link>https://example.org/start/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/start/</guid>
+      <description>&lt;p&gt;Bienvenue sur le site de Son’Art-Tech !&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>about</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/about/</guid>
+      <description>&lt;p&gt;about page&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>services</title>
+      <link>https://example.org/services-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/services-1/</guid>
+      <description>&lt;p&gt;services page&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
