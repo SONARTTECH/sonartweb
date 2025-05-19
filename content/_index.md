@@ -1,5 +1,6 @@
 ---
 title: Son'Art-Tech
+layout: home
 date: 2025-05-19
 draft: false
 ---

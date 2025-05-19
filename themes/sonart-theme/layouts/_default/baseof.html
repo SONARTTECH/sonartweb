@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>Categories | Son’Art-Tech</title>
+    <title>{{ block "title" . }}{{ .Title }} | Son’Art-Tech{{ end }}</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
@@ -17,16 +17,11 @@
     </header>
 
     <main>
-      
-  <h1>Categories</h1>
-  <ul>
-    
-  </ul>
-
+      {{ block "main" . }}{{ end }}
     </main>
 
     <footer>
-      <p>© 2025 Son’Art-Tech</p>
+      <p>© {{ now.Year }} Son’Art-Tech</p>
     </footer>
   </body>
 </html>
