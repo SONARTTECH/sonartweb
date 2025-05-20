@@ -1,0 +1,203 @@
+
+/* ------------------------- */
+/* FONTS & VARIABLES         */
+/* ------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #ff0055;
+  --color-bg: #0a0a0a;
+  --color-text: #f0f0f0;
+  --color-accent: #00ffff;
+  --color-footer: #111;
+  --font-main: 'Space Grotesk', sans-serif;
+  --transition: all 0.3s ease;
+}
+
+/* ------------------------- */
+/* RESET                     */
+/* ------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  line-height: 1.6;
+}
+
+/* ------------------------- */
+/* HEADER                    */
+/* ------------------------- */
+.site-header {
+  background: var(--color-primary);
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-flex {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 48px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.main-nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.main-nav a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* ------------------------- */
+/* MAIN CONTENT              */
+/* ------------------------- */
+.site-content {
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2, h3 {
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+}
+
+a {
+  color: var(--color-accent);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+/* ------------------------- */
+/* BUTTONS                   */
+/* ------------------------- */
+.btn {
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: #e6004a;
+  transform: scale(1.05);
+}
+
+/* ------------------------- */
+/* CARDS                     */
+/* ------------------------- */
+.card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: var(--transition);
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-5px);
+}
+
+/* ------------------------- */
+/* FORMS                     */
+/* ------------------------- */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  background: #222;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+/* ------------------------- */
+/* FOOTER                    */
+/* ------------------------- */
+.site-footer {
+  background: var(--color-footer);
+  color: #aaa;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.site-footer p {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  margin: 0 0.5rem;
+  color: #888;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--color-accent);
+}
+
+/* ------------------------- */
+/* RESPONSIVE                */
+/* ------------------------- */
+@media (max-width: 768px) {
+  .header-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .site-content {
+    padding: 1rem;
+  }
+}
