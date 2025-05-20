@@ -3,12 +3,12 @@
 /* RESET & VARIABLES         */
 /* ------------------------- */
 :root {
-  --color-primary: #583212;
-  --color-bg: #464646;
-  --color-text: #f6f6f6;
-  --color-secondary: #111;
-  --color-accent: #ffb300;
-  --font-main: 'Segoe UI', sans-serif;
+  --color-primary: hwb(23 0% 29%);
+  --color-bg: #121212;
+  --color-text: #f5f5f5;
+  --color-secondary: #cccccc;
+  --color-accent: #00ffff;
+  --font-main: 'Space Grotesk', sans-serif;
 }
 
 * {
@@ -18,11 +18,11 @@
 }
 
 body {
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  font-family: var(--font-main);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
   line-height: 1.6;
-  font-size: 16px;
+  color: var(--color-text);
+  background-color: var(--color-bg);
 }
 
 /* ------------------------- */
@@ -70,7 +70,17 @@ body {
   padding: 1rem;
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 700;
+}
+
+h3, h4, h5 {
   margin-bottom: 1rem;
   color: var(--color-accent);
 }
@@ -250,31 +260,3 @@ section:nth-child(5) { animation-delay: 0.8s; }
 }
 
 
-#backToTop {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  z-index: 999;
-  background: var(--color-primary);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  font-size: 24px;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-#backToTop.show {
-  opacity: 1;
-  visibility: visible;
-  transform: scale(1);
-}
-
-#backToTop:hover {
-  background: #e6004a;
-}
