@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>{{ block "title" . }}{{ .Title }} | Son’Art-Tech{{ end }}</title>
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ block "title" . }}{{ .Title }} | Son’Art-Tech{{ end }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- 🔷 HEADER -->
+  <header class="site-header">
+    <div class="container header-flex">
+      <a href="/" class="logo">
+        <img src="/logo.png" alt="Son’Art-Tech" />
+      </a>
+      <nav class="main-nav">
         <a href="/">Accueil</a>
         <a href="/about/">À propos</a>
         <a href="/services/">Services</a>
         <a href="/news/">Actualités</a>
         <a href="/contact/">Contact</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      {{ block "main" . }}{{ end }}
-    </main>
+  <!-- 🔸 CONTENU -->
+  <main class="site-content">
+    {{ block "main" . }}{{ end }}
+  </main>
 
-    <footer>
-      <p>© {{ now.Year }} Son’Art-Tech</p>
-    </footer>
-  </body>
+  <!-- 🔻 FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <div>
+        <p>© {{ now.Year }} Son’Art-Tech</p>
+        <p>Collectif d’art numérique et sonore</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://instagram.com/" target="_blank">Instagram</a>
+        <a href="https://youtube.com/" target="_blank">YouTube</a>
+        <a href="/mentions-legales/">Mentions légales</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
 </html>
