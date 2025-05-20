@@ -2,40 +2,84 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>{{ block "title" . }}{{ .Title }} | Son’Art-Tech{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/style.css" />
+  <title>{{ block "title" . }}{{ .Title }} | Son'Art-Tech{{ end }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
-  <!-- 🔷 HEADER -->
+  <!-- Header avec logo et navigation -->
   <header class="site-header">
     <div class="container header-flex">
       <a href="/" class="logo">
-        <img src="/logo.png" alt="Son’Art-Tech" />
+        <img src="/logo.png" alt="Son'Art-Tech" />
       </a>
       <nav class="main-nav">
-        <a href="/">Accueil</a>
-        <a href="/about/">À propos</a>
-        <a href="/services/">Services</a>
-        <a href="/news/">Actualités</a>
-        <a href="/contact/">Contact</a>
+        {{ if .IsHome }}
+          <a href="#about">À propos</a>
+          <a href="#services">Services</a>
+          <a href="#news">Actualités</a>
+          <a href="#contact">Contact</a>
+        {{ else }}
+          <a href="/">Accueil</a>
+          <a href="/about/">À propos</a>
+          <a href="/services/">Services</a>
+          <a href="/news/">Actualités</a>
+          <a href="/contact/">Contact</a>
+        {{ end }}
       </nav>
     </div>
   </header>
 
-  <!-- 🔸 CONTENU -->
+  <!-- Hero section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Son'Art-Tech</h1>
+      <p>Création artistique & numérique, au croisement du son, du code et de la lumière.</p>
+      <a href="#about" class="btn">Découvrir</a>
+    </div>
+  </section>
+
+  <!-- Contenu principal -->
   <main class="site-content">
-    {{ block "main" . }}{{ end }}
+    {{ if .IsHome }}
+      {{ with .Site.GetPage "about.md" }}
+      <section id="about">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+      </section>
+      {{ end }}
+
+      {{ with .Site.GetPage "services.md" }}
+      <section id="services">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+      </section>
+      {{ end }}
+
+      {{ with .Site.GetPage "news.md" }}
+      <section id="news">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+      </section>
+      {{ end }}
+
+      {{ with .Site.GetPage "contact.md" }}
+      <section id="contact">
+        <h2>{{ .Title }}</h2>
+        {{ .Content }}
+      </section>
+      {{ end }}
+    {{ else }}
+      {{ block "main" . }}{{ end }}
+    {{ end }}
   </main>
 
-  <!-- 🔻 FOOTER -->
+  <!-- Pied de page -->
   <footer class="site-footer">
     <div class="container footer-flex">
-      <div>
-        <p>© {{ now.Year }} Son’Art-Tech</p>
-        <p>Collectif d’art numérique et sonore</p>
-      </div>
+      <p>© {{ now.Year }} Son’Art-Tech</p>
       <div class="footer-links">
         <a href="https://instagram.com/" target="_blank">Instagram</a>
         <a href="https://youtube.com/" target="_blank">YouTube</a>
