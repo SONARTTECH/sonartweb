@@ -29,10 +29,13 @@ body {
 /* HEADER                    */
 /* ------------------------- */
 .site-header {
-  background: var(--color-primary);
-  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: var(--color-primary); /* ou une couleur fixe si le header est transparent */
+  padding: 1.5rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2); /* optionnel pour un effet de profondeur */
 }
-
 .header-flex {
   max-width: 1100px;
   margin: 0 auto;
