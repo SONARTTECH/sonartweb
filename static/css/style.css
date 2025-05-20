@@ -3,11 +3,11 @@
 /* RESET & VARIABLES         */
 /* ------------------------- */
 :root {
-  --color-primary: #ff0055;
-  --color-bg: #076047;
+  --color-primary: #583212;
+  --color-bg: #464646;
   --color-text: #f6f6f6;
   --color-secondary: #111;
-  --color-accent: #00ffff;
+  --color-accent: #ffb300;
   --font-main: 'Segoe UI', sans-serif;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .main-nav a {
-  color: white;
+  color: rgb(137, 109, 0);
   font-weight: bold;
   margin-left: 1.5rem;
   text-decoration: none;
@@ -117,7 +117,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: #e6004a;
+  background: #3b3b3b;
 }
 
 /* ------------------------- */
